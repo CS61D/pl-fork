@@ -35,11 +35,6 @@ RUN cd /PrairieLearn && yarn dlx node-gyp install && yarn install --immutable --
 # NOTE: Modify .dockerignore to allowlist files/directories to copy.
 COPY . /PrairieLearn/
 
-# Generate config.json with secret environment variables
-RUN echo '{
-  "serverCanonicalHost": "'"${SERVER_CANONICAL_HOST}"'",
-}' > /PrairieLearn/config.json
-
 # set up PrairieLearn and run migrations to initialize the DB
 RUN chmod +x /PrairieLearn/docker/init.sh \
     && mkdir /course{,{2..9}} \

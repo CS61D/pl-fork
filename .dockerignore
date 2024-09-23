@@ -30,7 +30,7 @@
 .DS_Store
 .yarn/cache
 .yarn/install-state.gz
-# /config.json
+/config.json
 apps/*/dist/
 apps/*/config.json
 apps/*/coverage/
