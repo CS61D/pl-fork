@@ -37,8 +37,7 @@ COPY . /PrairieLearn/
 
 # Generate config.json with secret environment variables
 RUN echo '{
-  "dbPassword": "'"${DB_PASSWORD}"'",
-  "serverCanonicalHost": "'"${API_KEY}"'"
+  "serverCanonicalHost": "'"${SERVER_CANONICAL_HOST}"'",
 }' > /PrairieLearn/config.json
 
 # set up PrairieLearn and run migrations to initialize the DB
