@@ -10,7 +10,7 @@ services:
       # - ${HOME}/pl_ag_jobs:/jobs
       - ./config.json:/PrairieLearn/config.json
 
-    container_name: plp
+    container_name: pl
     environment:
       - HOST_JOBS_DIR=${HOME}/pl_ag_jobs
       - NODE_ENV=production
