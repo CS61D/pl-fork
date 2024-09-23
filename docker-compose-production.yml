@@ -7,7 +7,7 @@ services:
     volumes:
       - postgres:/var/postgres
       - /var/run/docker.sock:/var/run/docker.sock
-      - ${HOME}/pl_ag_jobs:/jobs
+      # - ${HOME}/pl_ag_jobs:/jobs
       - ./config.json:/PrairieLearn/config.json
 
     container_name: plp
