@@ -38,7 +38,7 @@ docker-compose.override.yml
 # PrairieLearn
 
 ## Config
-/config.json
+# /config.json
 /apps/*/config.json
 
 ## Generated HTML

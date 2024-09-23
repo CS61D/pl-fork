@@ -1,0 +1,8 @@
+{
+    "serverCanonicalHost": "https://test.codifyberkeley.org",
+    "cookieDomain": ".codifyberkeley.org",
+    "googleClientId": "652582707360-667kmcihlmv2vjli7h84h2k9g0jrmpe4.apps.googleusercontent.com",
+    "googleClientSecret": "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",
+    "googleRedirectUrl": "https://test.codifyberkeley.org/pl/oauth2callback",
+    "hasOauth": true
+}
